@@ -34,7 +34,7 @@ public class BasePage {
 		chromeOptions.setAcceptInsecureCerts(true);
 		chromeOptions.addArguments("test-type");
 		System.setProperty("webdriver.chrome.driver",
-				System.getProperty("user.dir") + "\\src\\test\\resources\\driver\\chromedriver105.exe");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\driver\\chromedriver110.exe");
 		driver = new ChromeDriver(chromeOptions);
 
 		driver.manage().timeouts().pageLoadTimeout(PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);

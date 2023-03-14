@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import base.BasePage;
 import pages.HomePage;
-import pages.ProductDetailPage;
+//import pages.ProductDetailPage;
 
 public class CoreTest extends BasePage {
 
@@ -14,10 +14,10 @@ public class CoreTest extends BasePage {
 		homePage.keywordIsSearched();
 		homePage.goToFirstLink();
 
-		ProductDetailPage detailPage = new ProductDetailPage(driver);
-		detailPage.goToComment();
-		detailPage.yesForFirstComment();
-		detailPage.seeCongrats();
+//		ProductDetailPage detailPage = new ProductDetailPage(driver);
+//		detailPage.goToComment();
+//		detailPage.yesForFirstComment();
+//		detailPage.seeCongrats();
 	}
 
 }

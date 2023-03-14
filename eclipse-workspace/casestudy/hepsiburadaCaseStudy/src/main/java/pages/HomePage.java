@@ -18,7 +18,7 @@ public class HomePage extends BasePage {
 	}
 
 	public HomePage keywordIsSearched() {
-		WebElement searchElement = driver.findElement(By.className("desktopOldAutosuggestTheme-UyU36RyhCTcuRs_sXL9b"));
+		WebElement searchElement = driver.findElement(By.className("theme-IYtZzqYPto8PhOx3ku3c"));
 		searchElement.sendKeys("Iphone");
 		searchElement.sendKeys(Keys.RETURN);
 		System.out.println("searched for IPhone");
